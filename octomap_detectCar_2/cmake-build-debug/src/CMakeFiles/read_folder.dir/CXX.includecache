@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/songsong/Documents/detection/octomap_detectCar_2/src/readFolder.cpp
+readFolder.h
+/home/songsong/Documents/detection/octomap_detectCar_2/src/readFolder.h
+
+/home/songsong/Documents/detection/octomap_detectCar_2/src/readFolder.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+dirent.h
+-
+unistd.h
+-
+iostream
+-
+vector
+-
+

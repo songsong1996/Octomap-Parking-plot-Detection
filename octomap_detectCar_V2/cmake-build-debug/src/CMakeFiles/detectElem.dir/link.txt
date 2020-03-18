@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdetectElem.a  CMakeFiles/detectElem.dir/detectElem.cpp.o
+/usr/bin/ranlib libdetectElem.a

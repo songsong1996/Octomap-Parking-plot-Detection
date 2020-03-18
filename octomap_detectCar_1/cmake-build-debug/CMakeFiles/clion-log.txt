@@ -1,0 +1,52 @@
+/home/songsong/SoftWare/clion-2018.2.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/songsong/Documents/detection/octomap_detectCar_1
+-- Eigen found (include: /usr/include/eigen3, version: 3.2.92)
+-- Boost version: 1.58.0
+-- Found the following Boost libraries:
+--   system
+--   filesystem
+--   thread
+--   date_time
+--   iostreams
+--   serialization
+--   chrono
+--   atomic
+--   regex
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+CMake Warning (dev) at /usr/share/pcl-1.8/PCLConfig.cmake:245 (find_package):
+  Policy CMP0074 is not set: find_package uses PackageName_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable FLANN_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+Call Stack (most recent call first):
+  /usr/share/pcl-1.8/PCLConfig.cmake:300 (find_flann)
+  /usr/share/pcl-1.8/PCLConfig.cmake:510 (find_external_library)
+  src/CMakeLists.txt:2 (FIND_PACKAGE)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- FLANN found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libflann_cpp.so;debug;/usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+-- FLANN found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libflann_cpp.so;debug;/usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+-- FLANN found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libflann_cpp.so;debug;/usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+-- FLANN found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libflann_cpp.so;debug;/usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+-- looking for PCL_COMMON
+-- looking for PCL_OCTREE
+-- looking for PCL_IO
+-- looking for PCL_KDTREE
+-- looking for PCL_GEOMETRY
+-- looking for PCL_SEARCH
+-- looking for PCL_VISUALIZATION
+-- Configuring done
+WARNING: Target "detect" requests linking to directory "/usr/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "detect" requests linking to directory "/usr/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "detect_objects" requests linking to directory "/usr/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "read_file" requests linking to directory "/usr/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "car_space_norm" requests linking to directory "/usr/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "ransac_line_detection" requests linking to directory "/usr/lib".  Targets may link only to libraries.  CMake is dropping the item.
+-- Generating done
+-- Build files have been written to: /home/songsong/Documents/detection/octomap_detectCar_1/cmake-build-debug

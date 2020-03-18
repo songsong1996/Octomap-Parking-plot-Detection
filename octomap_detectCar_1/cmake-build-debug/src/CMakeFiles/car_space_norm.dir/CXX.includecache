@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/songsong/Documents/detection/octomap_detectCar_1/src/car_space_norm.cpp
+car_space_norm.h
+/home/songsong/Documents/detection/octomap_detectCar_1/src/car_space_norm.h
+
+/home/songsong/Documents/detection/octomap_detectCar_1/src/car_space_norm.h
+

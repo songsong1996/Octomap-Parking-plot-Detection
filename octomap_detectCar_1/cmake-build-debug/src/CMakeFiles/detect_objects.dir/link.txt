@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdetect_objects.a  CMakeFiles/detect_objects.dir/detect_Objects.cpp.o
+/usr/bin/ranlib libdetect_objects.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libransac_line_detection.a  CMakeFiles/ransac_line_detection.dir/line_ransac.cpp.o
+/usr/bin/ranlib libransac_line_detection.a

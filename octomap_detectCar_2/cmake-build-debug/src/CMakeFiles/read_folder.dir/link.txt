@@ -1,0 +1,2 @@
+/usr/bin/ar qc libread_folder.a  CMakeFiles/read_folder.dir/readFolder.cpp.o
+/usr/bin/ranlib libread_folder.a

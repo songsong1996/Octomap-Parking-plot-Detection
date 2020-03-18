@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="octomap_detectcar"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\share\;CMake Files\..\..\..\..\..\usr\share\pcl-1.8\;CMake Files\..\..\..\..\..\usr\share\pcl-1.8\Modules\;CMake Files\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\usr\lib\vtk-5.10\;CMake Files\..\..\..\..\..\usr\lib\vtk-5.10\CMake\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\usr\local\share\OpenCV\;CMake Files\..\..\..\..\..\usr\local\share\octomap\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/songsong/Documents/detection/octomap_detectCar_1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/songsong/Documents/detection/octomap_detectCar_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/songsong/Documents/detection/octomap_detectCar_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/songsong/Documents/detection/octomap_detectCar_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/songsong/Documents/detection/octomap_detectCar_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/songsong/Documents/detection/octomap_detectCar_1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/songsong/Documents/detection/octomap_detectCar_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/songsong/Documents/detection/octomap_detectCar_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/songsong/Documents/detection/octomap_detectCar_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/songsong/Documents/detection/octomap_detectCar_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/songsong/Documents/detection/octomap_detectCar_1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/songsong/Documents/detection/octomap_detectCar_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/songsong/Documents/detection/octomap_detectCar_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/songsong/Documents/detection/octomap_detectCar_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/songsong/Documents/detection/octomap_detectCar_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="detect">
+				<Option output="/home/songsong/Documents/detection/octomap_detectCar_1/bin/detect" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/songsong/Documents/detection/octomap_detectCar_1/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DDISABLE_LIBUSB_1_0"/>
+					<Add directory="/usr/include/vtk-5.10"/>
+					<Add directory="/usr/include/pcl-1.8"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/songsong/Documents/detection/octomap_detectCar_1/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 detect"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/songsong/Documents/detection/octomap_detectCar_1/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/songsong/Documents/detection/octomap_detectCar_1/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/songsong/Documents/detection/octomap_detectCar_1/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="detect/fast">
+				<Option output="/home/songsong/Documents/detection/octomap_detectCar_1/bin/detect" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/songsong/Documents/detection/octomap_detectCar_1/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DDISABLE_LIBUSB_1_0"/>
+					<Add directory="/usr/include/vtk-5.10"/>
+					<Add directory="/usr/include/pcl-1.8"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/songsong/Documents/detection/octomap_detectCar_1/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 detect/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/songsong/Documents/detection/octomap_detectCar_1/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/songsong/Documents/detection/octomap_detectCar_1/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/songsong/Documents/detection/octomap_detectCar_1/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/songsong/Documents/detection/octomap_detectCar_1/src/detect.cpp">
+			<Option target="detect"/>
+		</Unit>
+		<Unit filename="/home/songsong/Documents/detection/octomap_detectCar_1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/songsong/Documents/detection/octomap_detectCar_1/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/songsong/Documents/detection/octomap_detectCar_1/../../../../../usr/share/pcl-1.8/PCLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\pcl-1.8\"/>
+		</Unit>
+		<Unit filename="/home/songsong/Documents/detection/octomap_detectCar_1/../../../../../usr/share/pcl-1.8/PCLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\pcl-1.8\"/>
+		</Unit>
+		<Unit filename="/home/songsong/Documents/detection/octomap_detectCar_1/../../../../../usr/share/pcl-1.8/Modules/FindEigen.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\pcl-1.8\Modules\"/>
+		</Unit>
+		<Unit filename="/home/songsong/Documents/detection/octomap_detectCar_1/../../../../../usr/share/pcl-1.8/Modules/FindFLANN.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\pcl-1.8\Modules\"/>
+		</Unit>
+		<Unit filename="/home/songsong/Documents/detection/octomap_detectCar_1/../../../../../usr/lib/vtk-5.10/UseVTK.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.10\"/>
+		</Unit>
+		<Unit filename="/home/songsong/Documents/detection/octomap_detectCar_1/../../../../../usr/lib/vtk-5.10/VTKConfig-Java.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.10\"/>
+		</Unit>
+		<Unit filename="/home/songsong/Documents/detection/octomap_detectCar_1/../../../../../usr/lib/vtk-5.10/VTKConfig-Python.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.10\"/>
+		</Unit>
+		<Unit filename="/home/songsong/Documents/detection/octomap_detectCar_1/../../../../../usr/lib/vtk-5.10/VTKConfig-Tcl.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.10\"/>
+		</Unit>
+		<Unit filename="/home/songsong/Documents/detection/octomap_detectCar_1/../../../../../usr/lib/vtk-5.10/VTKConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.10\"/>
+		</Unit>
+		<Unit filename="/home/songsong/Documents/detection/octomap_detectCar_1/../../../../../usr/lib/vtk-5.10/VTKConfigQt.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.10\"/>
+		</Unit>
+		<Unit filename="/home/songsong/Documents/detection/octomap_detectCar_1/../../../../../usr/lib/vtk-5.10/VTKConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.10\"/>
+		</Unit>
+		<Unit filename="/home/songsong/Documents/detection/octomap_detectCar_1/../../../../../usr/lib/vtk-5.10/VTKTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.10\"/>
+		</Unit>
+		<Unit filename="/home/songsong/Documents/detection/octomap_detectCar_1/../../../../../usr/lib/vtk-5.10/VTKTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.10\"/>
+		</Unit>
+		<Unit filename="/home/songsong/Documents/detection/octomap_detectCar_1/../../../../../usr/lib/vtk-5.10/CMake/vtkMakeInstantiator.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\vtk-5.10\CMake\"/>
+		</Unit>
+		<Unit filename="/home/songsong/Documents/detection/octomap_detectCar_1/../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/songsong/Documents/detection/octomap_detectCar_1/../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/songsong/Documents/detection/octomap_detectCar_1/../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/songsong/Documents/detection/octomap_detectCar_1/../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/songsong/Documents/detection/octomap_detectCar_1/../../../../../usr/local/share/octomap/octomap-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\octomap\"/>
+		</Unit>
+		<Unit filename="/home/songsong/Documents/detection/octomap_detectCar_1/../../../../../usr/local/share/octomap/octomap-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\octomap\"/>
+		</Unit>
+		<Unit filename="/home/songsong/Documents/detection/octomap_detectCar_1/../../../../../usr/local/share/octomap/octomap-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\octomap\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

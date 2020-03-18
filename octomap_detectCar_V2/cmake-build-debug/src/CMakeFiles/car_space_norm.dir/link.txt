@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcar_space_norm.a  CMakeFiles/car_space_norm.dir/car_space_norm.cpp.o
+/usr/bin/ranlib libcar_space_norm.a
